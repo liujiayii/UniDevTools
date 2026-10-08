@@ -47,7 +47,9 @@
       @click.stop
       ref="panel"
       class="panel"
-      :style="[panelStyle]"
+      :style="{
+        height: panelHeight + 'px',
+      }"
     >
       <view class="head">
         <scroll-view
@@ -467,7 +469,7 @@
   </view>
 </template>
 <script>
-import init from "../../index";
+import init from "@xiaodou/uni-devtools";
 import consoleItem from "./listItem/consoleItem.vue";
 import infoList from "./listItem/infoList.vue";
 import storageList from "./listItem/storageList.vue";
@@ -786,17 +788,6 @@ export default {
       // [1, 2, 3, 4, 5, 7, 9, 10].indexOf(tabIndex) != -1
       let item = this.tabList[this.tabIndex];
       return item.isShowBottomTools === true;
-    },
-    /**
-     * 面板样式
-     */
-    panelStyle() {
-      return {
-        height: this.panelHeight + "px",
-        // #ifdef APP-PLUS
-        transform: `translate(0px,${this.panelHeight}px)`,
-        // #endif
-      };
     },
   },
   mounted() {
