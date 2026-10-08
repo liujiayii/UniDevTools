@@ -474,8 +474,8 @@ import storageList from "./listItem/storageList.vue";
 import tools from "./listItem/tools.vue";
 import vuexList from "./listItem/vuexList.vue";
 import animationControl from "./mixins/animationControl";
-import { timeFormat, timeFromNow } from "../../core/libs/timeFormat";
-import devCache from "../../core/libs/devCache";
+import { timeFormat, timeFromNow } from "@xiaodou/uni-devtools/core/libs/timeFormat";
+import devCache from "@xiaodou/uni-devtools/core/libs/devCache";
 import networkItem from "./listItem/networkItem.vue";
 import pages from "./listItem/pages.vue";
 import logItem from "./listItem/logItem.vue";
@@ -499,7 +499,7 @@ import mp from "./mixins/mp";
 import jsRunnerItem from "./listItem/jsRunnerItem.vue";
 import routeItem from "./listItem/routeItem.vue";
 import routeDialog from "./dialog/routeDialog.vue";
-import pageLinkList from "../../core/libs/pageLinkList.js";
+import pageLinkList from "@xiaodou/uni-devtools/core/libs/pageLinkList.js";
 
 // #ifndef APP-PLUS
 import h5Cell from "./ui/h5Cell.vue";

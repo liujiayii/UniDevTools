@@ -49,7 +49,7 @@
   </view>
 </template>
 <script>
-import devCache from "../../../core/libs/devCache";
+import devCache from "@xiaodou/uni-devtools/core/libs/devCache";
 import objectAnalysis from "./objectAnalysis.vue";
 export default {
   components: {

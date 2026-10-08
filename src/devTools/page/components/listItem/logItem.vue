@@ -25,7 +25,7 @@
   </view>
 </template>
 <script>
-import devCache from "../../../core/libs/devCache";
+import devCache from "@xiaodou/uni-devtools/core/libs/devCache";
 export default {
   props: {
     /**

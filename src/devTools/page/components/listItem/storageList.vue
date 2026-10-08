@@ -30,7 +30,7 @@
 </template>
 <script>
 // #ifdef MP
-import devCache from "../../../core/libs/devCache";
+import devCache from "@xiaodou/uni-devtools/core/libs/devCache";
 // #endif
 import objectAnalysis from "./objectAnalysis.vue";
 

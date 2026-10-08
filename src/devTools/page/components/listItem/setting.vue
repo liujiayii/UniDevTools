@@ -118,9 +118,9 @@
   </view>
 </template>
 <script>
-import devCache from "../../../core/libs/devCache";
-import devOptions from "../../../core/libs/devOptions";
-import jsonCompress from "../../../core/libs/jsonCompress";
+import devCache from "@xiaodou/uni-devtools/core/libs/devCache";
+import devOptions from "@xiaodou/uni-devtools/core/libs/devOptions";
+import jsonCompress from "@xiaodou/uni-devtools/core/libs/jsonCompress";
 import appDelDir from "../libs/appDelDir";
 import subTitleBar from "../ui/subTitleBar.vue";
 import objectAnalysis from "./objectAnalysis.vue";

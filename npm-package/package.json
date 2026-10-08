@@ -1,0 +1,35 @@
+{
+  "name": "@xiaodou/uni-devtools",
+  "version": "3.8.2",
+  "description": "UniApp 跨平台调试工具 UniDevTools（fork 自 reborn-net/UniDevTools v3.81），发布至 @xiaodou 私有 npm 仓库",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liujiayii/UniDevTools.git"
+  },
+  "keywords": [
+    "uniapp",
+    "uni-app",
+    "devtools",
+    "debug",
+    "vue3",
+    "调试工具"
+  ],
+  "main": "index.js",
+  "bin": {
+    "uni-devtools-sync": "./bin/uni-devtools-sync.mjs"
+  },
+  "files": [
+    "core",
+    "page",
+    "config.js",
+    "index.js",
+    "tools.vue",
+    "READEME.MD",
+    "LICENSE",
+    "bin"
+  ],
+  "publishConfig": {
+    "registry": "https://packages.aliyun.com/6458927ddf66cc2d3fd10f22/npm/npm-registry/"
+  }
+}

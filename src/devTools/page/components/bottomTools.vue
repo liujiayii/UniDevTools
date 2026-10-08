@@ -271,7 +271,7 @@
   </view>
 </template>
 <script>
-import devCache from "../../core/libs/devCache";
+import devCache from "@xiaodou/uni-devtools/core/libs/devCache";
 import appDelDir from "./libs/appDelDir";
 import btnTabs from "./ui/btnTabs.vue";
 import codeHisPicker from "./ui/codeHisPicker.vue";

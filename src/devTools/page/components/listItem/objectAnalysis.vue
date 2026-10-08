@@ -68,7 +68,7 @@
   </view>
 </template>
 <script>
-import jsonCompress from "../../../core/libs/jsonCompress";
+import jsonCompress from "@xiaodou/uni-devtools/core/libs/jsonCompress";
 function getType(v) {
   return Object.prototype.toString.call(v).slice(8, -1).toLocaleLowerCase();
 }

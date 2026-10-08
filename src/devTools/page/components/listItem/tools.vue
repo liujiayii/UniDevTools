@@ -95,7 +95,7 @@
   </view>
 </template>
 <script>
-import tools from "../../../tools.vue";
+import tools from "@xiaodou/uni-devtools/tools.vue";
 import subTitleBar from "../ui/subTitleBar.vue";
 export default {
   components: {
