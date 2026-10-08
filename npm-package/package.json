@@ -1,6 +1,7 @@
 {
   "name": "@xiaodou/uni-devtools",
-  "version": "3.8.2",
+  "version": "3.8.3",
+  "types": "index.d.ts",
   "description": "UniApp 跨平台调试工具 UniDevTools（fork 自 reborn-net/UniDevTools v3.81），发布至 @xiaodou 私有 npm 仓库",
   "license": "Apache-2.0",
   "repository": {
@@ -23,6 +24,7 @@
     "core",
     "page",
     "config.js",
+    "index.d.ts",
     "index.js",
     "tools.vue",
     "READEME.MD",
